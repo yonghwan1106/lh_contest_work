@@ -1,6 +1,0 @@
-{
-  "buildCommand": "cd lh-proposal-web && npm run build",
-  "outputDirectory": "lh-proposal-web/.next",
-  "installCommand": "cd lh-proposal-web && npm install",
-  "framework": null
-}
