@@ -30,11 +30,7 @@ export default function Home() {
 
             <h1 className="text-6xl md:text-7xl font-black text-stone-900 mb-8 leading-tight tracking-tight">
               「국민과 함께<br/>
-              <span className="relative inline-block">
-                만드는 새로운
-                <div className="absolute -bottom-2 left-0 right-0 h-3 bg-blue-500 opacity-20"></div>
-              </span>
-              <br/>
+              만드는 새로운<br/>
               <span className="text-blue-600">LH</span>」
             </h1>
           </div>
@@ -225,10 +221,14 @@ export default function Home() {
 
         {/* Footer - Minimal */}
         <div className="border-t-2 border-stone-200 pt-8 pb-12">
-          <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
             <div>
               <p className="text-sm font-bold text-stone-900">국토교통부, 한국토지주택공사·국토연구원 주최</p>
               <p className="text-xs text-stone-600 mt-1 font-mono">Ministry of Land, Infrastructure and Transport</p>
+            </div>
+            <div>
+              <p className="text-sm font-bold text-stone-900">제안자</p>
+              <p className="text-sm text-stone-700 mt-1">박용환 (Creative Nexus)</p>
             </div>
             <div className="text-right">
               <p className="text-sm font-bold text-stone-900">제출 기한</p>
