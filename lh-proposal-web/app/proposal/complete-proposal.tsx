@@ -112,7 +112,7 @@ export default function CompleteProposal() {
                   </div>
                   <h2 className="text-2xl font-black text-stone-900 tracking-tight">신청자</h2>
                 </div>
-                <p className="ml-16 text-stone-700 text-lg">홍길동</p>
+                <p className="ml-16 text-stone-700 text-lg">박용환</p>
               </div>
 
               <div className="border-t-2 border-stone-200 pt-8">
