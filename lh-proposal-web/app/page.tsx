@@ -61,40 +61,37 @@ export default function Home() {
         </div>
 
         {/* Navigation - Architectural Style */}
-        <div className="grid md:grid-cols-2 gap-6 mb-24">
+        <div className="grid md:grid-cols-3 gap-6 mb-24">
           <Link
             href="/proposal"
             className="group relative bg-white border-l-8 border-blue-600 hover:border-blue-700 transition-all duration-300 overflow-hidden"
           >
             <div className="absolute top-0 right-0 w-40 h-40 bg-blue-50 rounded-full -mr-20 -mt-20 group-hover:scale-150 transition-transform duration-700"></div>
 
-            <div className="relative p-10">
-              <div className="flex items-start justify-between mb-6">
+            <div className="relative p-8">
+              <div className="flex items-start justify-between mb-4">
                 <div>
                   <div className="text-xs font-mono text-blue-600 mb-2 tracking-widest">01 — PROPOSAL</div>
-                  <h2 className="text-4xl font-black text-stone-900 leading-tight">
+                  <h2 className="text-3xl font-black text-stone-900 leading-tight">
                     제안서
                   </h2>
                 </div>
-                <div className="w-12 h-12 bg-stone-900 flex items-center justify-center group-hover:bg-blue-600 transition-colors duration-300">
-                  <span className="text-white text-2xl">→</span>
+                <div className="w-10 h-10 bg-stone-900 flex items-center justify-center group-hover:bg-blue-600 transition-colors duration-300">
+                  <span className="text-white text-xl">→</span>
                 </div>
               </div>
 
-              <p className="text-stone-600 text-lg mb-6 leading-relaxed">
+              <p className="text-stone-600 text-base mb-4 leading-relaxed">
                 LH 개혁을 위한 혁신적인<br/>
                 지역특화 리빙랩 도시 플랫폼
               </p>
 
               <div className="flex flex-wrap gap-2">
-                <div className="bg-stone-900 text-white px-4 py-1.5 text-xs font-bold tracking-wide">
+                <div className="bg-stone-900 text-white px-3 py-1 text-xs font-bold tracking-wide">
                   5 PAGES
                 </div>
-                <div className="border-2 border-stone-300 text-stone-700 px-4 py-1.5 text-xs font-bold tracking-wide">
+                <div className="border-2 border-stone-300 text-stone-700 px-3 py-1 text-xs font-bold tracking-wide">
                   지역 발전
-                </div>
-                <div className="border-2 border-stone-300 text-stone-700 px-4 py-1.5 text-xs font-bold tracking-wide">
-                  리빙랩
                 </div>
               </div>
             </div>
@@ -106,33 +103,65 @@ export default function Home() {
           >
             <div className="absolute top-0 right-0 w-40 h-40 bg-green-500/10 rounded-full -mr-20 -mt-20 group-hover:scale-150 transition-transform duration-700"></div>
 
-            <div className="relative p-10">
-              <div className="flex items-start justify-between mb-6">
+            <div className="relative p-8">
+              <div className="flex items-start justify-between mb-4">
                 <div>
                   <div className="text-xs font-mono text-green-400 mb-2 tracking-widest">02 — VISUAL DATA</div>
-                  <h2 className="text-4xl font-black text-white leading-tight">
+                  <h2 className="text-3xl font-black text-white leading-tight">
                     시각 자료
                   </h2>
                 </div>
-                <div className="w-12 h-12 bg-white flex items-center justify-center group-hover:bg-green-500 transition-colors duration-300">
-                  <span className="text-stone-900 group-hover:text-white text-2xl transition-colors">→</span>
+                <div className="w-10 h-10 bg-white flex items-center justify-center group-hover:bg-green-500 transition-colors duration-300">
+                  <span className="text-stone-900 group-hover:text-white text-xl transition-colors">→</span>
                 </div>
               </div>
 
-              <p className="text-stone-300 text-lg mb-6 leading-relaxed">
+              <p className="text-stone-300 text-base mb-4 leading-relaxed">
                 8종의 인터랙티브 차트와<br/>
                 실시간 데이터 시각화
               </p>
 
               <div className="flex flex-wrap gap-2">
-                <div className="bg-green-500 text-stone-900 px-4 py-1.5 text-xs font-bold tracking-wide">
+                <div className="bg-green-500 text-stone-900 px-3 py-1 text-xs font-bold tracking-wide">
                   INTERACTIVE
                 </div>
-                <div className="border-2 border-stone-600 text-stone-300 px-4 py-1.5 text-xs font-bold tracking-wide">
-                  도넛차트
+                <div className="border-2 border-stone-600 text-stone-300 px-3 py-1 text-xs font-bold tracking-wide">
+                  차트
                 </div>
-                <div className="border-2 border-stone-600 text-stone-300 px-4 py-1.5 text-xs font-bold tracking-wide">
-                  바차트
+              </div>
+            </div>
+          </Link>
+
+          <Link
+            href="/research"
+            className="group relative bg-gradient-to-br from-purple-900 to-purple-800 border-l-8 border-purple-500 hover:border-purple-400 transition-all duration-300 overflow-hidden"
+          >
+            <div className="absolute top-0 right-0 w-40 h-40 bg-purple-500/10 rounded-full -mr-20 -mt-20 group-hover:scale-150 transition-transform duration-700"></div>
+
+            <div className="relative p-8">
+              <div className="flex items-start justify-between mb-4">
+                <div>
+                  <div className="text-xs font-mono text-purple-300 mb-2 tracking-widest">03 — RESEARCH</div>
+                  <h2 className="text-3xl font-black text-white leading-tight">
+                    리서치
+                  </h2>
+                </div>
+                <div className="w-10 h-10 bg-white flex items-center justify-center group-hover:bg-purple-500 transition-colors duration-300">
+                  <span className="text-purple-900 group-hover:text-white text-xl transition-colors">→</span>
+                </div>
+              </div>
+
+              <p className="text-purple-200 text-base mb-4 leading-relaxed">
+                해외 사례 및 국내 리빙랩<br/>
+                심층 분석 인사이트
+              </p>
+
+              <div className="flex flex-wrap gap-2">
+                <div className="bg-purple-500 text-white px-3 py-1 text-xs font-bold tracking-wide">
+                  INSIGHTS
+                </div>
+                <div className="border-2 border-purple-400 text-purple-200 px-3 py-1 text-xs font-bold tracking-wide">
+                  사례 분석
                 </div>
               </div>
             </div>
