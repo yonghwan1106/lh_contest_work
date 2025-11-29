@@ -258,6 +258,7 @@ export default function Home() {
             <div>
               <p className="text-sm font-bold text-stone-900">제안자</p>
               <p className="text-sm text-stone-700 mt-1">박용환 (Creative Nexus)</p>
+              <p className="text-xs text-stone-500 mt-1 font-mono">010-7939-3123</p>
             </div>
             <div className="text-right">
               <p className="text-sm font-bold text-stone-900">제출 기한</p>

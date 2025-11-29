@@ -112,7 +112,17 @@ export default function CompleteProposal() {
                   </div>
                   <h2 className="text-2xl font-black text-stone-900 tracking-tight">신청자</h2>
                 </div>
-                <p className="ml-16 text-stone-700 text-lg">박용환</p>
+                <div className="ml-16">
+                  <p className="text-stone-900 text-lg font-bold mb-2">박용환</p>
+                  <div className="flex flex-wrap gap-4 text-sm text-stone-600 font-mono">
+                    <span className="flex items-center gap-2">
+                      <span className="text-blue-600">소속:</span> Creative Nexus
+                    </span>
+                    <span className="flex items-center gap-2">
+                      <span className="text-blue-600">연락처:</span> 010-7939-3123
+                    </span>
+                  </div>
+                </div>
               </div>
 
               <div className="border-t-2 border-stone-200 pt-8">
